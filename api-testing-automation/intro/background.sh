@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /root/filesystem/home/ubuntu
+cd ~/root/filesystem/home/ubuntu
