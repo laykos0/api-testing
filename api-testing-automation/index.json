@@ -24,19 +24,12 @@
       "text": "finish/text.md"
     },
     "assets": {
+      "background": [{ "file": "background.sh", "target": "~/", "chmod": "+x" }],
       "host01": [{ "file": "*", "target": "/app", "chmod": "+w" }]
     }
   },
 
   "backend": {
     "imageid": "ubuntu"
-  },
-
-  "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n",
-    "scripts": {
-      "background": "background.sh"
-    }
   }
 }
