@@ -22,11 +22,10 @@
     "finish": {
       "title": "Finish",
       "text": "finish/text.md"
+    },
+    "assets": {
+      "host01": [{ "file": "main.py", "target": "~/", "chmod": "+w" }]
     }
-  },
-
-  "assets": {
-    "client": ["assets/"]
   },
 
   "backend": {
