@@ -19,8 +19,8 @@
         "verify": "steps/uvicorn/verify.sh"
       },
       {
-        "title": "APP",
-        "text": "steps/app/text.md"
+        "title": "API",
+        "text": "steps/api/text.md"
       }
     ],
     "finish": {
