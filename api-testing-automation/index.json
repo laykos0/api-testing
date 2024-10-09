@@ -24,9 +24,11 @@
       "text": "finish/text.md"
     },
     "assets": {
-
-      "host01": [{ "file": "background.sh", "target": "~/", "chmod": "+x" },
-      { "file": "*", "target": "/app", "chmod": "+w" }]
+      "host01": [
+        { "file": "background.sh", "target": "~/", "chmod": "+x" },
+        { "file": "*", "target": "/app", "chmod": "+w" },
+        { "file": "*", "target": "/all1" }
+      ]
     }
   },
 
