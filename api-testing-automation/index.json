@@ -25,7 +25,6 @@
     },
     "assets": {
       "host01": [
-        { "file": "background.sh", "target": "~/", "chmod": "+x" },
         { "file": "*", "target": "/app", "chmod": "+w" },
         { "file": "*", "target": "/all1" }
       ]
@@ -34,10 +33,5 @@
 
   "backend": {
     "imageid": "ubuntu"
-  },
-  "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mWelcome to the scenario!\u001b[m\r\n",
-    "workdir": "/app"
   }
 }
