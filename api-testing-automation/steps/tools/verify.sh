@@ -1,1 +1,1 @@
-pip show fastapi
+pip show fastapi && pip show uvicorn

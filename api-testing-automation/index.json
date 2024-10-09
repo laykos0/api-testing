@@ -21,6 +21,10 @@
       {
         "title": "API",
         "text": "steps/api/text.md"
+      },
+      {
+        "title": "Git Hooks",
+        "text": "steps/hooks/text.md"
       }
     ],
     "finish": {
