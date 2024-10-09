@@ -1,5 +1,34 @@
 {
   "title": "Api Testing Automation",
+  "description": "...",
+  "details": {
+    "intro": {
+      "title": "Intro",
+      "text": "intro/text.md",
+      "script": "intro/intro.sh"
+    },
+    "steps": [
+      {
+        "title": "Step1",
+        "text": "intro/text.md",
+        "foreground": "intro/intro.sh",
+        "background": "intro/intro.sh",
+        "verify": "intro/intro.sh"
+      },
+      {
+        "title": "Step2",
+        "text": "intro/text.md",
+        "foreground": "intro/intro.sh",
+        "background": "intro/intro.sh",
+        "verify": "intro/intro.sh"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+      "script": "finish/finish.sh"
+    }
+  },
   "backend": {
     "imageid": "ubuntu"
   }
