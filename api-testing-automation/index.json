@@ -24,7 +24,7 @@
       "text": "finish/text.md"
     },
     "assets": {
-      "app": [{ "file": "app/main.py", "target": "~/" }]
+      "host01": [{ "file": "app/main.py", "target": "~/" }]
     }
   },
 
