@@ -24,7 +24,7 @@
       "text": "finish/text.md"
     },
     "assets": {
-      "host01": [{ "file": "main.py", "target": "/app", "chmod": "+w" }]
+      "host01": [{ "file": "*", "target": "~/", "chmod": "+w" }]
     }
   },
 
