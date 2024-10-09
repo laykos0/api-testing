@@ -17,6 +17,10 @@
         "title": "Uvicorn",
         "text": "steps/uvicorn/text.md",
         "verify": "steps/uvicorn/verify.sh"
+      },
+      {
+        "title": "APP",
+        "text": "steps/app/text.md"
       }
     ],
     "finish": {
