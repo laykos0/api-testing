@@ -19,15 +19,13 @@
         "verify": "steps/uvicorn/verify.sh"
       }
     ],
-
     "finish": {
       "title": "Finish",
       "text": "finish/text.md"
+    },
+    "assets": {
+      "app": [{ "file": "app/main.py", "target": "~/" }]
     }
-  },
-
-  "assets": {
-    "app": [{ "file": "app/main.py", "target": "/app" }]
   },
 
   "backend": {
