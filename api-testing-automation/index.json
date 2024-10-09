@@ -22,17 +22,14 @@
     "finish": {
       "title": "Finish",
       "text": "finish/text.md"
-    },
-    "assets": {
-      "host01": [{ "file": "app/main.py", "target": "~/" }]
     }
+  },
+
+  "assets": {
+    "client": ["assets/"]
   },
 
   "backend": {
     "imageid": "ubuntu"
-  },
-
-  "interface": {
-    "layout": "ide"
   }
 }
