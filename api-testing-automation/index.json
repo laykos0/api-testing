@@ -11,7 +11,7 @@
     "steps": [
       {
         "title": "Step1",
-        "text": "tools_and_dependencies/text.md",
+        "text": "intro/text.md",
         "foreground": "intro/intro.sh",
         "background": "intro/intro.sh",
         "verify": "intro/intro.sh"
