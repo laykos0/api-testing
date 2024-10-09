@@ -36,6 +36,8 @@
     "imageid": "ubuntu"
   },
   "environment": {
-    "workdir": "/root/filesystem"
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mWelcome to the scenario!\u001b[m\r\n",
+    "workdir": "/app"
   }
 }
