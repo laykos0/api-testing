@@ -5,37 +5,34 @@
     "intro": {
       "title": "Intro",
       "text": "intro/text.md",
-      "foreground": "intro/intro.sh",
       "background": "intro/background.sh"
     },
     "steps": [
       {
-        "title": "Step1",
-        "text": "intro/text.md",
-        "foreground": "intro/intro.sh",
-        "background": "intro/intro.sh",
-        "verify": "intro/intro.sh"
+        "title": "Tools",
+        "text": "steps/tools/text.md",
+        "verify": "steps/tools/verify.sh"
       },
       {
-        "title": "Step2",
-        "text": "intro/text.md",
-        "foreground": "intro/intro.sh",
-        "background": "intro/intro.sh",
-        "verify": "intro/intro.sh"
+        "title": "Uvicorn",
+        "text": "steps/uvicorn/text.md",
+        "verify": "steps/uvicorn/verify.sh"
       }
     ],
-    "assets": {
-      "app": [{ "file": "app/main.py", "target": "/root/filesystem/home/ubuntu/app", "chmod": "+w" }]
-    },
+
     "finish": {
       "title": "Finish",
-      "text": "finish/text.md",
-      "script": "finish/finish.sh"
+      "text": "finish/text.md"
     }
   },
+  "assets": {
+    "app": [{ "file": "app/main.py", "target": "~/" }]
+  },
+
   "backend": {
     "imageid": "ubuntu"
   },
+
   "interface": {
     "layout": "ide"
   }
