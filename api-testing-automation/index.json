@@ -6,12 +6,12 @@
       "title": "Intro",
       "text": "intro/text.md",
       "foreground": "intro/intro.sh",
-      "background": "intro/intro.sh"
+      "background": "intro/background.sh"
     },
     "steps": [
       {
         "title": "Step1",
-        "text": "intro/text.md",
+        "text": "tools_and_dependencies/text.md",
         "foreground": "intro/intro.sh",
         "background": "intro/intro.sh",
         "verify": "intro/intro.sh"
@@ -24,6 +24,9 @@
         "verify": "intro/intro.sh"
       }
     ],
+    "assets": {
+      "app": [{ "file": "app", "target": " /root/filesystem/home/ubuntu", "chmod": "+w" }]
+    },
     "finish": {
       "title": "Finish",
       "text": "finish/text.md",
@@ -32,5 +35,8 @@
   },
   "backend": {
     "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
   }
 }
