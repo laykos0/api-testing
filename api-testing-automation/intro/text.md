@@ -8,14 +8,14 @@ Automation of testing is essential in DevOps, since it largely reduces the time 
 
 ### Intended Learning Outcomes
 
-After this tutorial, you will be able to:
+After this tutorial, you will learn how to:
 
 - Set up a simple API with FastAPI.
 - Interact with API endpoints.
 - Implement own test cases with Starlett TestClient.
 - Set up Git hooks for your API.
 - Implement regression testing and automation strategies to validate new changes in the API.
-
+  blablablabla
 - Setting up the required tools in the environment and creating a git repository
 - Initializing a sample FastAPI project and running the API with Uvicorn
 - Reviewing provided test cases for the sample API.
@@ -24,7 +24,8 @@ After this tutorial, you will be able to:
 - Automation and regression testing of the new changes to the API
 
 ### Background
+
 - FastAPI: A modern and fast web framework for building APIs with Python. Well-suited for building REST APIs with asynchronous structure.
-- Starlett TestClient: A lightweight ASGI tool kit for FastAPI, provides a way to simulate requests to your FastAPI with built-in testing client.
+- Starlett TestClient: A lightweight tool kit for FastAPI, provides a way to simulate requests to your FastAPI with built-in testing client.
 - Git Hooks: Automatic running scripts in Git workflow.
-The executable tutorial will provide a hands-on guide to implementing automated API testing using FastAPI, Starlette TestClient and Git Hooks.
+  The executable tutorial will provide a hands-on guide to implementing automated API testing using FastAPI, Starlette TestClient and Git Hooks.
