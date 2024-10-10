@@ -14,6 +14,11 @@
         "verify": "steps/tools/verify.sh"
       },
       {
+        "title": "Git Repository",
+        "text": "steps/repository/text.md",
+        "verify": "steps/repository/verify.sh"
+      },
+      {
         "title": "Uvicorn",
         "text": "steps/uvicorn/text.md",
         "verify": "steps/uvicorn/verify.sh"
