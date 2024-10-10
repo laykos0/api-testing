@@ -1,1 +1,2 @@
+CTRL+C
 clear
