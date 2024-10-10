@@ -39,7 +39,11 @@
       "text": "finish/text.md"
     },
     "assets": {
-      "host01": [{ "file": "app/main.py", "target": "/app", "chmod": "+w" }]
+      "host01": [
+        { "file": "app/src/main.py", "target": "/app/src", "chmod": "+w" },
+        { "file": "app/tests/test.py", "target": "/app/tests", "chmod": "+w" },
+        { "file": "app/.pytest.ini", "target": "/app" }
+      ]
     }
   },
 
