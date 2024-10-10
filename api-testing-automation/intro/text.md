@@ -13,13 +13,13 @@ After this tutorial, you will learn how to:
 - Implement own test cases with Starlett TestClient.
 - Set up Git hooks for your API.
 - Implement regression testing and automation strategies to validate new changes in the API.
-    <!-- blablablabla -->
-      <!-- - Setting up the required tools in the environment and creating a git repository
-    <!-- - Initializing a sample FastAPI project and running the API with Uvicorn
+  <!-- blablablabla -->
+  <!-- - Setting up the required tools in the environment and creating a git repository
+  <!-- - Initializing a sample FastAPI project and running the API with Uvicorn
   <!-- - Reviewing provided test cases for the sample API. -->
   <!-- - Configuring Git Hooks to run provided Starlette TestClient test cases in automatic manner. -->
   <!-- - Updating source code of the API -->
-  <!-- - Automation and regression testing of the new changes to the API --> -->
+  <!-- - Automation and regression testing of the new changes to the API -->
 
 ### Background
 
