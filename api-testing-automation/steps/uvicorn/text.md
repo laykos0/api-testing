@@ -1,1 +1,1 @@
-`uvicorn main:app --reload --port 8000 &`{{exec}}
+`uvicorn src.main:app --reload --port 8000 &`{{exec}}

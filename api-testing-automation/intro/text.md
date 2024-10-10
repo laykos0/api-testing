@@ -11,6 +11,7 @@ After this tutorial, you will learn how to:
 - Set up a simple API with FastAPI.
 - Interact with API endpoints.
 - Implement own API test cases with Starlett TestClient and pytest.
+- Test API without starting a server.
 - Set up Git hooks for your API.
 - Implement regression testing and automation strategies to validate new changes in the API.
   <!-- blablablabla -->
