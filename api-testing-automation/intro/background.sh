@@ -1,1 +1,1 @@
-cd /root/filesystem/home/ubuntu
+echo '-w "\n"' > ~/.curlrc
