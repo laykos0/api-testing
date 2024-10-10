@@ -10,7 +10,7 @@ After this tutorial, you will learn how to:
 
 - Set up a simple API with FastAPI.
 - Interact with API endpoints.
-- Implement own test cases with Starlett TestClient.
+- Implement own API test cases with Starlett TestClient and pytest.
 - Set up Git hooks for your API.
 - Implement regression testing and automation strategies to validate new changes in the API.
   <!-- blablablabla -->
@@ -25,5 +25,5 @@ After this tutorial, you will learn how to:
 
 - FastAPI: A modern and fast web framework for building APIs with Python. Well-suited for building REST APIs with asynchronous structure.
 - Starlett TestClient: A lightweight tool kit for FastAPI, provides a way to simulate requests to your FastAPI with built-in testing client.
+- Pytest: A popular testing framework for python, simple but powerful.
 - Git Hooks: Automatic running scripts in Git workflow.
-  The executable tutorial will provide a hands-on guide to implementing automated API testing using FastAPI, Starlette TestClient and Git Hooks.
