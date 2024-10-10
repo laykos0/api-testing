@@ -16,5 +16,5 @@ Automation of testing is essential in DevOps, since it largely reduces the time 
 - Automation and regression testing of the new changes to the API
 
 ### Background
-
+- FastAPI: a modern and fast web framework for building APIs with Python. Asynchronous structured and well-suited for building REST APIs.
 The executable tutorial will provide a hands-on guide to implementing automated API testing using FastAPI, Starlette TestClient and Git Hooks.
