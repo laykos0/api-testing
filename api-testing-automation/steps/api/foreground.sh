@@ -1,3 +1,1 @@
-echo
-echo
-echo
+printf "\n"

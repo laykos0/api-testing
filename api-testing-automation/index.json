@@ -22,6 +22,7 @@
       {
         "title": "Uvicorn",
         "text": "steps/uvicorn/text.md",
+        "foreground": "steps/uvicorn/foreground.sh",
         "verify": "steps/uvicorn/verify.sh"
       },
       {
