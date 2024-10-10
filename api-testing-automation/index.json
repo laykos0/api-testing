@@ -16,6 +16,7 @@
       {
         "title": "Git Repository",
         "text": "steps/repository/text.md",
+        "foreground": "steps/repository/foreground.sh",
         "verify": "steps/repository/verify.sh"
       },
       {
@@ -41,7 +42,7 @@
     "assets": {
       "host01": [
         { "file": "app/src/main.py", "target": "/app/src", "chmod": "+w" },
-        { "file": "app/tests/test.py", "target": "/app/tests", "chmod": "+w" },
+        { "file": "app/tests/test_example.py", "target": "/app/tests", "chmod": "+w" },
         { "file": "app/.pytest.ini", "target": "/app" }
       ]
     }
