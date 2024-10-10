@@ -25,6 +25,8 @@
       },
       {
         "title": "API",
+        "foreground": "steps/api/foreground.sh",
+        "background": "intro/background.sh",
         "text": "steps/api/text.md"
       },
       {
