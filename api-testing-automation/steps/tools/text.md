@@ -1,3 +1,3 @@
-`sudo apt install -y python3 python3-pip git`
+`sudo apt install -y python3 python3-pip git`{{exec}}
 
-`pip install fastapi uvicorn`
+`pip install fastapi uvicorn`{{exec}}

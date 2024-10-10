@@ -1,3 +1,3 @@
-`cd filesystem/app`
+`cd filesystem/app`{{exec}}
 
-`git init`
+`git init`{{exec}}

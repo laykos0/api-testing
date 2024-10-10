@@ -1,7 +1,7 @@
-`cd .git/hooks`
+`cd .git/hooks`{{exec}}
 
-`touch pre-commit`
+`touch pre-commit`{{exec}}
 
-`echo '#!/bin/sh \n echo hello' > pre-commit`
+`echo '#!/bin/sh \n echo hello' > pre-commit`{{exec}}
 
-`chmod +x pre-commit`
+`chmod +x pre-commit`{{exec}}
