@@ -1,1 +1,1 @@
-`uvicorn main:app --reload`{{exec}}
+`uvicorn main:app --reload &`{{exec}}
