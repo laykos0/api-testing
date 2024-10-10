@@ -8,12 +8,7 @@
 
 `nano > pre-commit`{{exec}}
 
-````
-#!/bin/sh
-
-pytest /tests
-
-```{{copy}}
-
 `echo '#!/bin/sh pytest test_main.py' > pre-commit`{{exec}}
-````
+
+`#!/bin/sh`{{copy}}
+`pytest tests`{{copy}}
