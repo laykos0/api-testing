@@ -1,2 +1,1 @@
-CTRL+C
-clear
+clear{{exec interrupt}}
