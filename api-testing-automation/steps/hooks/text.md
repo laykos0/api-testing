@@ -17,7 +17,7 @@ Use your favorite editor to open the file and modify it. You can use either `vim
 
 `vim pre-commit`{{exec}} or
 
-`nano > pre-commit`{{exec}}
+`nano pre-commit`{{exec}}
 
 Add the following line to the `pre-commit` file to automatically run tests before each commit:
 

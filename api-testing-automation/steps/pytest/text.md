@@ -1,6 +1,6 @@
 ## Review Provided Test Cases
 
-First, let's examine the provided test cases to understand their structure.
+First, let's examine the provided **test cases** to understand their **structure**.
 
 `cat tests/test_example.py`{{exec}}
 
@@ -16,8 +16,8 @@ The diagram illustrates the interaction between **FastAPI** and the **Starlette 
 
 ## Run the Example Test
 
-Now you can run the example tests by executing:
+Now you can **run** the example **tests** by executing:
 
 `pytest tests/test_example.py`{{exec}}
 
-**Note**: Observe that the example test for the `/divide` endpoint fails  due to a `ZeroDivisionError`.
+**Note**: Observe that the example test for the `/divide` endpoint **fails** with a `ZeroDivisionError`.

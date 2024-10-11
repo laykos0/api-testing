@@ -7,7 +7,7 @@ You can use either `nano` or `vim` to edit the example test file. Choose your pr
 
 `vim tests/test_example.py`{{exec}}
 
-**Note**: Make sure that the **name** of **your function** starts with `test_` (**required** by Pytest).
+**Note**: Make sure that the **name** of **your function** starts with `test_` (required by Pytest).
 
 ## Hint
 You could test if the **divide endpoint** returns correct **status code** when given a **string** as **query parameter**.
