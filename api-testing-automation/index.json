@@ -51,6 +51,7 @@
       {
         "title": "Feature Fix",
         "text": "steps/feature/text.md",
+        "verify": "steps/feature/verify.sh",
         "foreground": "steps/feature/foreground.sh"
       },
       {
