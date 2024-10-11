@@ -68,7 +68,10 @@
         { "file": "app/src/main.py", "target": "/app/src", "chmod": "+w" },
         { "file": "app/tests/test_example.py", "target": "/app/tests", "chmod": "+w" },
         { "file": "app/.pytest.ini", "target": "/app" },
-        { "file": "app/.ignore", "target": "/app" }
+        { "file": "app/.ignore", "target": "/app" },
+        { "file": "vim.txt", "target": "/" },
+        { "file": "nano.txt", "target": "/" },
+        { "file": "echo.txt", "target": "/" }
       ]
     }
   },
