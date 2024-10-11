@@ -6,6 +6,6 @@ app = FastAPI()
 async def read_root():
     return {"Hello": "World"}
 
-@app.get("/example")
-async def read_example():
-    return 1/0
+@app.get("/divide")
+async def divide(a: float, b: float):
+    return {"result": a / b}

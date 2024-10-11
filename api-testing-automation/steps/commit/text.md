@@ -1,4 +1,5 @@
-Now switch back to the main app directory
+Now switch back to the main app directory.
+
 `cd /root/filesystem/app`{{exec}}
 
 Let's try Commit some changes to the API including the faulty endpoint
@@ -7,6 +8,6 @@ Let's try Commit some changes to the API including the faulty endpoint
 
 `git commit -m "message"`{{exec}}
 
-Look our tests fail so commit does not go through
+We see that our tests failed, therefore the commit also fails. Let' verify it with Git:
 
 `git log`{{exec}}
