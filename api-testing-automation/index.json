@@ -38,7 +38,8 @@
       },
       {
         "title": "Git Hooks",
-        "text": "steps/hooks/text.md"
+        "text": "steps/hooks/text.md",
+        "verify": "steps/hooks/verify.sh"
       },
       {
         "title": "Commit",

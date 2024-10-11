@@ -15,7 +15,7 @@ Change the permission to make it executable.
 
 Use your favorite editor to open the file and modify it. You can use either `vim` or `nano`:
 
-`vim pre-commit`{{exec}}
+`vim pre-commit`{{exec}} or
 
 `nano > pre-commit`{{exec}}
 
