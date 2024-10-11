@@ -1,6 +1,6 @@
 ## Review Provided Test Cases
 
-First, let's examine the provided test cases to ...
+First, let's examine the provided test cases to understand their structure.
 
 `cat tests/test_example.py`{{exec}}
 

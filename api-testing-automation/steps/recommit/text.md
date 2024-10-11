@@ -1,12 +1,12 @@
-Finally let's try to commit again
+## Finalize and Commit Changes
 
-...
+After fixing the error in the API, let's try to commit again.
 
-Add all changes in the current directory to the staging area, the stage before commit.
+Add all changes in the current directory to the staging area before the commit.
 
 `git add .`{{exec}}
 
-Make a commit with comment indicating that we have fixed the error of division by zero.
+Make a commit with a message indicating that we have fixed the division by zero error:
 
 `git commit -m "Fix ZeroDivisionError in "`{{exec}}
 

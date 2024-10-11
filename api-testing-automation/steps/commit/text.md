@@ -1,4 +1,5 @@
-Now switch back to the main app directory.
+## Stage and Commit Changes
+Now, switch back to the main app directory.
 
 `cd /root/filesystem/app`{{exec}}
 
