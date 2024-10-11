@@ -1,3 +1,4 @@
+## Tools
 First, we need to set up the development environment by installing **tools** and **packages** that are essential for **developing**, **running**, and **testing** our FastAPI project by running:
 
 
@@ -11,7 +12,7 @@ The following tools will be installed:
 
 **Note**: The provided examples of commands are intended for use in a **Linux** environment with **apt** package manager. If you are using a different system, the installation commands may vary.
 
----
+## Packages
 
 Once **Python** and **pip** are installed, you can install the necessary packages using **pip**:
 
