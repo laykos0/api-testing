@@ -4,5 +4,6 @@ Let's fix the broken feature
 
 `vim src/main.py`{{exec}}
 
-...
-![test](image.png)
+Here is a flowchart explaining why our request to the example endpoint introduces an error.
+
+<img src="./feature.png" width="400px">

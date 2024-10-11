@@ -28,5 +28,3 @@ After this tutorial, you will learn how to:
 - Starlett TestClient: A lightweight toolkit for FastAPI, provides a way to simulate requests to your FastAPI with built-in testing client.
 - Pytest: A popular testing framework for python, simple but powerful.
 - Git Hooks: Scripts that run automatically at certain points in Git workflow, in our case, before any change to the API source code becomes visible.
-
-  <img src="./test.png" width="600px">
