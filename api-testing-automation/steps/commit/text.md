@@ -1,3 +1,6 @@
+Now switch back to the main app directory
+`cd /root/filesystem/app`{{exec}}
+
 Let's try Commit some changes to the API including the faulty endpoint
 
 `git add .`{{exec}}

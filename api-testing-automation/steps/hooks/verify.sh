@@ -1,0 +1,1 @@
+grep "pytest tests" /root/filesystem/app/.git/hooks/pre-commit

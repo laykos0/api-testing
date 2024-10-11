@@ -23,7 +23,8 @@
       {
         "title": "API",
         "foreground": "steps/api/foreground.sh",
-        "text": "steps/api/text.md"
+        "text": "steps/api/text.md",
+        "verify": "steps/api/verify.sh"
       },
       {
         "title": "Pytest",
@@ -31,7 +32,8 @@
       },
       {
         "title": "Own Test",
-        "text": "steps/tests/text.md"
+        "text": "steps/tests/text.md",
+        "foreground": "steps/tests/foreground.sh"
       },
       {
         "title": "Git Hooks",

@@ -1,6 +1,6 @@
 Show example test
 
-`cat tests/test_example.py`
+`cat tests/test_example.py`{{exec}}
 
 Run example test
 
