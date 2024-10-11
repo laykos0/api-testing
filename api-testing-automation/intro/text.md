@@ -29,4 +29,4 @@ After this tutorial, you will learn how to:
 - Pytest: A popular testing framework for python, simple but powerful.
 - Git Hooks: Scripts that run automatically at certain points in Git workflow, in our case, before any change to the API source code becomes visible.
 
-  <img src="test.png" width="600px">
+  <img src="./test.png" width="600px">
