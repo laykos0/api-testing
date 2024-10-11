@@ -7,3 +7,4 @@ apt install tree
 
 pip install Pygments
 
+alias cat="pygmentize -P style=monokai -l python"
