@@ -28,7 +28,8 @@
       },
       {
         "title": "Pytest",
-        "text": "steps/pytest/text.md"
+        "text": "steps/pytest/text.md",
+        "foreground": "steps/pytest/foreground.sh"
       },
       {
         "title": "Own Test",

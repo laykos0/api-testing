@@ -1,5 +1,5 @@
 ## Initialize Git Repository
-First, let's move to the working directory of the app.
+First, let's move to the **working directory** of the app.
 
 `cd /root/filesystem/app`{{exec}}
 
@@ -7,12 +7,12 @@ Start with **initializing** a new **Git repository** in the current directory.
 
 `git init`{{exec}}
 
-To see what the newly initialized repository looks like, run:
+To see what the newly initialized **repository** looks like, run:
 
 `tree -a`{{exec}}
 
-
 As we see, our working directory now includes:
+
 - **`/src`**: Contains source code of the API. 
 - **`/tests`**: Holds all of our test cases.
 - **`/.git`**: Contains Git configuration files for our project.
