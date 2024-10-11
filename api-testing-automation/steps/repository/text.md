@@ -1,5 +1,5 @@
-`cd filesystem/app`{{exec}}
-
+Start with initializing a new Git repository in the current directory.
 `git init`{{exec}}
 
-`tree`{{exec}}
+This command can show you how the repository looks like:
+`tree -a`{{exec}}

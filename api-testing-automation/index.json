@@ -32,8 +32,28 @@
         "text": "steps/api/text.md"
       },
       {
+        "title": "Pytest",
+        "text": "steps/pytest/text.md"
+      },
+      {
+        "title": "Own Test",
+        "text": "steps/tests/text.md"
+      },
+      {
         "title": "Git Hooks",
         "text": "steps/hooks/text.md"
+      },
+      {
+        "title": "Commit",
+        "text": "steps/commit/text.md"
+      },
+      {
+        "title": "Feature Fix",
+        "text": "steps/feature/text.md"
+      },
+      {
+        "title": "Commit Again",
+        "text": "steps/recommit/text.md"
       }
     ],
     "finish": {
