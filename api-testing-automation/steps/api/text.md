@@ -10,7 +10,7 @@ Now, start the provided example API using Uvicorn, to not affect on our terminal
 `uvicorn src.main:app --reload --port 8000 &`{{exec}}
 
 - **`--reload`**: Enables auto-reloading of the server on code changes.
-- **`--port 8000`**: Specifies the port for the server.
+- **`--port 8000`**: Specifies the port for the server to listen on.
 - **`&`** : Runs the command in the background, allowing to continue using the terminal.
 
 ## Test the Running API
@@ -18,7 +18,7 @@ Now, start the provided example API using Uvicorn, to not affect on our terminal
 
 Since the API is running,  you can send requests to it.
 
-Here is an example how to test the `GET /divide` endpoint:
+Here is an example how to test the `/divide` endpoint:
 
 `curl "http://127.0.0.1:8000/divide?a=6&b=3"`{{exec}}
 
