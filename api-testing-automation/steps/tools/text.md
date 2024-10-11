@@ -10,7 +10,6 @@ The following tools will be installed:
 - **pip**: The package manager for Python.
 - **Git**: A version control system to manage code and enable Git Hooks.
 
-**Note**: The provided examples of commands are intended for use in a **Linux** environment with **apt** package manager. If you are using a different system, the installation commands may vary.
 
 ## Packages
 
@@ -25,3 +24,6 @@ This command installs:
 - **Uvicorn**: ASGI server implementation, used to run FastAPI applications.
 - **Pytest**: Python testing framework to run the test cases.
 - **httpx**: Python HTTP client, required by Starlette's TestClient for making HTTP requests.
+
+
+**Note**: The provided examples of commands are intended for use in a **Linux** environment with **apt** package manager. If you are using a different system, the installation commands may vary.
