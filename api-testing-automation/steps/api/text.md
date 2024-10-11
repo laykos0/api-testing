@@ -1,8 +1,14 @@
 ## Review Provided API 
-First, let's take a look at the provided API script to understand its structure and functionality:
+First, let's take a look at the provided source code of the API to understand its structure and functionality:
 
 
 `cat src/main.py`{{exec}}
+
+The provided API is a simple FastAPI asynchronous application that defines two endpoints: 
+
+- `/`: Returns a simple welcome message.
+- `/divide`: Accepts query parameters, `a` and `b`, and returns result of dividing `a` by `b`.
+
 
 ## Start the Example API with Uvicorn
 Now, start the provided example API using Uvicorn, to not affect on our terminal, leave it running in the background.
