@@ -1,4 +1,6 @@
+Now switch to the Git hooks directory.
 `cd .git/hooks`{{exec}}
+
 
 `touch pre-commit`{{exec}}
 
