@@ -40,7 +40,8 @@
       {
         "title": "Git Hooks",
         "text": "steps/hooks/text.md",
-        "verify": "steps/hooks/verify.sh"
+        "verify": "steps/hooks/verify.sh",
+        "foreground": "steps/hooks/foreground.sh"
       },
       {
         "title": "Commit",

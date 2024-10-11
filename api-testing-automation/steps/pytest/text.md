@@ -16,7 +16,7 @@ The diagram illustrates the interaction between **FastAPI** and the **Starlette 
 
 ## Run the Example Test
 
-Now run the example test
+Now you can run the example tests by executing:
 
 `pytest tests/test_example.py`{{exec}}
 

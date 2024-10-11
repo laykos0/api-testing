@@ -10,7 +10,7 @@ The following tools will be installed:
 - **pip**: The package manager for Python.
 - **Git**: A version control system to manage code and enable Git Hooks.
 
-**Note**: Seen above tools are already built-in here, you can skip running this part.
+**Note**: Seen above tools are already installed in the tutorial virtual machine, you can skip running this part.
 
 ## Packages
 
