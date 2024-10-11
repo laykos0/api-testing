@@ -3,7 +3,7 @@ Now you can add your own test case. Try to write one similar to the example prov
 
  You can use either `nano` or `vim` to edit the example test file. Choose your preferred text editor:
 
-`nano tests/test_example.py`{{exec}}
+`nano tests/test_example.py`{{exec}} or
 
 `vim tests/test_example.py`{{exec}}
 
