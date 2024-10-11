@@ -12,7 +12,7 @@ Use your favorite editor to open the file and modify it.
 
 `nano > pre-commit`{{exec}}
 
-Or just add to the file 
+Or just add to the file directly here.
 `echo '#!/bin/sh \n pytest tests' > pre-commit`{{exec}}
 
 `#!/bin/sh`{{copy}}
