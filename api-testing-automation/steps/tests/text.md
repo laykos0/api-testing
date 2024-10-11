@@ -20,4 +20,11 @@ Other possible test cases:
 - Correct Response Content Type
 - Edge Cases (For example very large numbers)
 
+## Run the Test Case
+After adding your own test case you can run it by calling:
+
+`pytest tests/test_example.py::$FUNCTION_NAME`{{copy}}
+
+**Example**:
+`pytest tests/test_example.py::test_root`{{exec}}
 

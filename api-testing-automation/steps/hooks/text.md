@@ -25,4 +25,4 @@ Add the following line to the `pre-commit` file to automatically run tests befor
 
 **Note**: Alternatively, you can just append the line to the file directly with `echo`.
 
-`echo 'pytest tests' > pre-commit`{{exec}}
+`echo 'pytest tests' >> pre-commit`{{exec}}

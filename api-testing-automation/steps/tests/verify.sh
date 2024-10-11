@@ -1,0 +1,1 @@
+python -m py_compile /root/filesystem/app/tests/test_example.py

@@ -8,10 +8,16 @@ Add all changes in the current directory to the staging area before the commit.
 
 Make a commit with a message indicating that we have fixed the division by zero error:
 
-`git commit -m "Fix ZeroDivisionError in "`{{exec}}
+`git commit -m "Fix ZeroDivisionError in GET /divide"`{{exec}}
 
 <!-- TODO: GIT HOOK PRE-COMMIT GONNA RUN ALL OUR TESTS REGRESSIVELY? -->
 
-All tests pass and commit added
+## Verification with Git
 
-`git log`
+Now all tests should pass and commit should be added.
+
+Let's verify it with Git.
+
+`git log`{{exec}}
+
+It should now print your commit.

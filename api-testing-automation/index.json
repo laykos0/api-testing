@@ -34,7 +34,8 @@
       {
         "title": "Own Test",
         "text": "steps/tests/text.md",
-        "foreground": "steps/tests/foreground.sh"
+        "foreground": "steps/tests/foreground.sh",
+        "verify": "steps/tests/verify.sh"
       },
       {
         "title": "Git Hooks",
