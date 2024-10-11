@@ -1,27 +1,28 @@
 ## Stage and Commit Changes
 
-Now, switch back to the main app directory.
+Now that the **pre-commit hook** has been set, switch back to the main app directory.
 
 `cd /root/filesystem/app`{{exec}}
 
-Let's try Commit some changes to the API including the faulty endpoint
+Let's try to commit changes to the project, including the faulty division endpoint.
 
 `git add .`{{exec}}
 
-`git commit -m "message"`{{exec}}
+`git commit -m "initial commit"`{{exec}}
+
+## Explanation
+Note that the since the **pre-commit hook is set**, the **commit fails**, as all of the **tests must pass** to **successfully commit** the changes. The diagram below illustrates the process.
 
 <p align="center">
   <img src="./hooks.png" width="350px">
 </p>
 
-As shown in the flowchart, the line of command `git add .` stage changes in the git directory, and `git commit -m "message"` attempts to commit the changes. However, since the pre-commit hook is set, the tests must be passed to successfully commit the changes.
-
 ## Verification with Git
 
-We see that our tests failed, therefore the commit also fails. Let' verify it with Git:
+We see verify that the commit has been aborted by running:
 
 `git log`{{exec}}
 
- It should print 
- 
+The expected output of the command is:
+
 `fatal: your current branch 'master' does not have any commits yet`
