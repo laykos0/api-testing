@@ -7,7 +7,7 @@ Start with **initializing** a new **Git repository** in the current directory.
 
 `git init`{{exec}}
 
-To see what the newly initialized **repository** looks like, run:
+To see what the **newly initialized repository** looks like, run:
 
 `tree -a`{{exec}}
 

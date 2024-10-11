@@ -7,15 +7,15 @@ Now you can add your own test case. Try to write one similar to the example prov
 
 **Hint**: you could test if the divide endpoint returns correct status code when given a string as query parameter.
 
-```
+```python
 def test_divide_input_string():
     response = client.get("/divide?a=a&b=b")
     assert response.status_code == 422
 ``` 
 
-Other test cases:
-- Test if the divide endpoint responses with correct type of content.
-- Test if the divide endpoint responses with correct answer.
-- ...
+Other possible test cases:
+- Missing Query Parameters
+- Correct Response Content Type
+- Edge Cases (For example very large numbers)
 
 
