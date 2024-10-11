@@ -1,12 +1,26 @@
-First, we will need to install **python 3**, **pip(Python package manager)** and **Git**. You can choose any version on Python, as long as it support the tools we need.
+First, we need to set up the development environment by installing **tools** and **packages** that are essential for **developing**, **running**, and **testing** our FastAPI project by running:
 
-In our case, **Python**, **pip** and **Git** are built-in, but for you to be able to reproduce
-this tutorial on your own Linux system, here is the command for installing them:
 
 `sudo apt install -y python3 python3-pip git`{{exec}}
 
-Now we can install our tools:
+The following tools will be installed:
+
+- **Python 3**: The programming language required for running FastAPI applications (versions 3.7+).
+- **pip**: The package manager for Python.
+- **Git**: A version control system to manage code and enable Git Hooks.
+
+**Note**: The provided examples of commands are intended for use in a **Linux** environment with **apt** package manager. If you are using a different system, the installation commands may vary.
+
+---
+
+Once **Python** and **pip** are installed, you can install the necessary packages using **pip**:
+
 
 `pip install fastapi uvicorn pytest httpx`{{exec}}
 
-This command installs the earlier described tools that will be used in this tutorial. Which are **FastAPI**, **uvicorn** and **pytest**. **httpx** is a required package for **Starlett TestClient**.
+This command installs:
+
+- **FastAPI**: Web framework for building APIs with Python 3.7+.
+- **Uvicorn**: ASGI server implementation, used to run FastAPI applications.
+- **Pytest**: Python testing framework to run the test cases.
+- **httpx**: Python HTTP client, required by Starlette's TestClient for making HTTP requests.

@@ -1,4 +1,5 @@
-First, let's take a look at the provided API script.
+First, let's take a look at the provided API script to understand its structure and functionality:
+
 
 `cat src/main.py`{{exec}}
 
