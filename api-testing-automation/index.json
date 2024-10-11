@@ -10,7 +10,7 @@
     },
     "steps": [
       {
-        "title": "Tools",
+        "title": "Install Necessary Tools",
         "text": "steps/tools/text.md",
         "verify": "steps/tools/verify.sh"
       },
@@ -21,41 +21,42 @@
         "verify": "steps/repository/verify.sh"
       },
       {
-        "title": "API",
+        "title": "FastAPI and Uvicorn",
         "foreground": "steps/api/foreground.sh",
         "text": "steps/api/text.md",
         "verify": "steps/api/verify.sh"
       },
       {
-        "title": "Pytest",
+        "title": "Example Test Cases",
         "text": "steps/pytest/text.md",
         "foreground": "steps/pytest/foreground.sh"
       },
       {
-        "title": "Own Test",
+        "title": "Own Test Case",
         "text": "steps/tests/text.md",
         "foreground": "steps/tests/foreground.sh",
         "verify": "steps/tests/verify.sh"
       },
       {
-        "title": "Git Hooks",
+        "title": "Git Hooks Setup",
         "text": "steps/hooks/text.md",
         "verify": "steps/hooks/verify.sh",
         "foreground": "steps/hooks/foreground.sh"
       },
       {
-        "title": "Commit",
+        "title": "Stage and Commit",
         "text": "steps/commit/text.md",
         "foreground": "steps/commit/foreground.sh"
       },
       {
-        "title": "Feature Fix",
+        "title": "Fixing the API",
         "text": "steps/feature/text.md",
         "verify": "steps/feature/verify.sh",
         "foreground": "steps/feature/foreground.sh"
       },
       {
-        "title": "Commit Again",
+        "title": "Commit Fixes",
+        "foreground": "steps/recommit/foreground.sh",
         "text": "steps/recommit/text.md"
       }
     ],

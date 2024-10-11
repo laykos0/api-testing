@@ -1,4 +1,4 @@
-## Fixing the API 
+## Fixing the Endpoint 
 
 Let's **fix** the **broken endpoint** by editing the API source code. Open the file `main.py` using your preferred text editor:
 
