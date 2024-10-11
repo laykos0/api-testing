@@ -50,7 +50,8 @@
       },
       {
         "title": "Feature Fix",
-        "text": "steps/feature/text.md"
+        "text": "steps/feature/text.md",
+        "foreground": "steps/feature/foreground.sh"
       },
       {
         "title": "Commit Again",
