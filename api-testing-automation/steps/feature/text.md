@@ -5,3 +5,4 @@ Let's fix the broken feature
 `vim src/main.py`{{exec}}
 
 ...
+![test](image.png)

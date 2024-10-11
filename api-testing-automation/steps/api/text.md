@@ -10,4 +10,3 @@ Since the API is running, we can try to send request to it. Here we send a HTTP 
 
 `curl http://127.0.0.1:8000/`{{exec}}
 
-![test](/api-testing-automation/test.png)
