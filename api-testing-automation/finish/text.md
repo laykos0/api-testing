@@ -9,4 +9,4 @@
     - Pytest documentation: https://docs.pytest.org
 
 ## Stay Connected
-- 
+- **Questions or feedback?** Comment here! https://github.com/KTH/devops-course/pull/2521
