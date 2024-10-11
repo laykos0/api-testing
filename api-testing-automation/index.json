@@ -38,7 +38,8 @@
       },
       {
         "title": "Commit",
-        "text": "steps/commit/text.md"
+        "text": "steps/commit/text.md",
+        "foreground": "steps/commit/foreground.sh"
       },
       {
         "title": "Feature Fix",

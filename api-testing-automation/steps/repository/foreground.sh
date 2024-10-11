@@ -1,2 +1,2 @@
 clear
-cd filesystem/app
+

@@ -1,2 +1,2 @@
+cd /root/filesystem/app
 clear
-cd filesystem/app
