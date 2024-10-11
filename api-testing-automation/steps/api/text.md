@@ -12,4 +12,4 @@ Here is an example:
 
 `curl "http://127.0.0.1:8000/divide?a=6&b=3"`{{exec}}
 
-This command sends a HTTP request to the API's divide endpoint, with two query parameters, *a = 6* and *b = 3*. The expected response is 
+This command sends a HTTP request to the API's divide endpoint, with two query parameters, *a = 6* and *b = 3*. The expected response is **{"result":2}**.
