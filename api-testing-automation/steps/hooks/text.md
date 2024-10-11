@@ -1,5 +1,5 @@
 ## Create pre-commit Hook File
-First, switch to the Git hooks directory.
+First, switch to the **Git Hooks** directory.
 
 `cd .git/hooks`{{exec}}
 
@@ -7,7 +7,7 @@ Create the `pre-commit` file.
 
 `touch pre-commit`{{exec}}
 
-Change the permission to make it executable.
+Change the **permission** to make it **executable**.
 
 `chmod +x pre-commit`{{exec}}
 
@@ -19,7 +19,7 @@ Use your favorite editor to open the file and modify it. You can use either `vim
 
 `nano pre-commit`{{exec}}
 
-Add the following line to the `pre-commit` file to automatically run tests before each commit:
+Add the following line to the `pre-commit` file to **automatically run tests** before **each commit**:
 
 `pytest tests`{{copy}}
 
