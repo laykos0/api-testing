@@ -8,6 +8,10 @@ Let's try Commit some changes to the API including the faulty endpoint
 
 `git commit -m "message"`{{exec}}
 
+<p align="center">
+  <img src="./hooks.png" width="300px">
+</p>
+
 We see that our tests failed, therefore the commit also fails. Let' verify it with Git:
 
 `git log`{{exec}}

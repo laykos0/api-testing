@@ -6,4 +6,6 @@ Let's fix the broken feature
 
 Here is a flowchart explaining why our request to the example endpoint introduces an error.
 
-<img src="./feature.png" width="400px">
+<p align="center">
+  <img src="./feature.png" width="300px">
+</p>

@@ -1,12 +1,17 @@
-<!-- TODO: INSTRUCT TO WRITE A SIMPLE TEST -->
-
-Write your own test similar to the example
+Now you can add your own test case. Try to write one similar to the example!
 
 `nano tests/test_example.py`{{exec}}
 
 `vim tests/test_example.py`{{exec}}
 
-<!-- TODO: GIVE SOME EXAMPLE MAYBE EXPLAIN WHAT CAN BE TESTED -->
+For example: you could test if the divide endpoint return correct status code with string as request input.
 
-For example you could ...
-`...`
+```
+def test_divide_input_string():
+    response = client.get("/divide?a=a&b=b")
+    assert response.status_code == 422
+``` 
+
+You can also add test cases to check if the API responses with correct type of content.
+
+
