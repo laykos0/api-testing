@@ -4,7 +4,7 @@ Now you can add your own test case. Try to write one similar to the example!
 
 `vim tests/test_example.py`{{exec}}
 
-For example: you could test if the divide endpoint return correct status code with string as request input.
+Hint: you could test if the divide endpoint return correct status code with string as request input.
 
 ```
 def test_divide_input_string():
@@ -12,6 +12,9 @@ def test_divide_input_string():
     assert response.status_code == 422
 ``` 
 
-You can also add test cases to check if the API responses with correct type of content.
+Other test cases:
+- Test if the divide endpoint responses with correct type of content.
+- Test if the divide endpoint responses with correct answer.
+- ...
 
 

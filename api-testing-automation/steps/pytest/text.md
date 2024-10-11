@@ -5,7 +5,7 @@ Show the example test
 We see that test cases are simply requesting the root endpoint the example endpoint, the test cases are through when we get the responses with status code = 200, indicating the request was successful.
 
 <p align="center">
-  <img src="./testclient.png" width="300px">
+  <img src="./testclient.png" width="350px">
 </p>
 
 Now run the example test
