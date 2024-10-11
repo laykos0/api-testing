@@ -20,15 +20,8 @@
         "verify": "steps/repository/verify.sh"
       },
       {
-        "title": "Uvicorn",
-        "text": "steps/uvicorn/text.md",
-        "foreground": "steps/uvicorn/foreground.sh",
-        "verify": "steps/uvicorn/verify.sh"
-      },
-      {
         "title": "API",
         "foreground": "steps/api/foreground.sh",
-        "background": "intro/background.sh",
         "text": "steps/api/text.md"
       },
       {
