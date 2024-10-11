@@ -11,7 +11,7 @@ The provided API is a simple FastAPI asynchronous application that defines two e
 
 
 ## Start the Example API with Uvicorn
-Now, start the provided example API using Uvicorn, to not affect on our terminal, leave it running in the background.
+Now, start the example API using Uvicorn and leave it running in the background.
 
 `uvicorn src.main:app --reload --port 8000 &`{{exec}}
 

@@ -1,3 +1,4 @@
+## Initialize Git Repository
 First, let's move to the working directory of the app.
 
 `cd /root/filesystem/app`{{exec}}

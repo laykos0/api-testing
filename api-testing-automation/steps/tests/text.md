@@ -1,10 +1,11 @@
-Now you can add your own test case. Try to write one similar to the example!
+## Add Your Own Test Case
+Now you can add your own test case. Try to write one similar to the example provided! You can use either `nano` or `vim` to edit the example test file. Choose your preferred text editor:
 
 `nano tests/test_example.py`{{exec}}
 
 `vim tests/test_example.py`{{exec}}
 
-Hint: you could test if the divide endpoint return correct status code with string as request input.
+**Hint**: you could test if the divide endpoint returns correct status code when given a string as query parameter.
 
 ```
 def test_divide_input_string():
